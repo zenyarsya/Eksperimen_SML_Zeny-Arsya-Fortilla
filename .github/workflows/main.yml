@@ -35,7 +35,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Tambahkan file hasil preprocessing kamu
-          git add -f preprocessing/*.csv
+          git add -f Preprocessing/*.csv
           
           # Commit dan push kembali ke repo
           git commit -m "Update preprocessed data [skip ci]" || echo "No changes to commit"
