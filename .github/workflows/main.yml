@@ -27,7 +27,7 @@ jobs:
       - name: Run Preprocessing Script
         run: |
           # Pastikan jalur folder dan nama file sudah benar
-          python preprocessing/automate_Zeny-Arsya-Fortilla.py
+          python Preprocessing/automate_Zeny-Arsya-Fortilla.py
 
       - name: Commit and Push Preprocessed Data
         run: |
